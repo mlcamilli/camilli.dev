@@ -1,0 +1,24 @@
+{
+  "name": "@example/blog",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@astrojs/preact": "^0.1.1",
+    "astro": "^1.0.0-beta.14"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^0.2.0",
+    "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^1.0.6",
+    "preact": "^10.7.1",
+    "prettier": "^2.6.2",
+    "tailwind": "^4.0.0"
+  }
+}
