@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
+    "@astrojs/sitemap": "^3.4.1",
     "@biomejs/biome": "^2.1.2",
     "rehype-external-links": "^3.0.0",
     "tailwindcss": "^4.1.11",
