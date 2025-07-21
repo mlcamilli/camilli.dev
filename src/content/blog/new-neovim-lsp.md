@@ -1,6 +1,6 @@
 ---
 title: 'Neovim LSP Setup 11.2+'
-description: 'Just a quick how to on how to utilize neovims new lsp support with mason, mason-lspconfig, nvim-lspconfig'
+description: "Just a quick how to on utilizing Neovim's new lsp support with mason, mason-lspconfig, nvim-lspconfig"
 pubDate: 2025-07-20
 tags: ['neovim', 'lsp', 'dotfiles']
 ---
