@@ -1,24 +1,28 @@
 {
-  "name": "@example/blog",
+  "name": "astro",
+  "type": "module",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
+    "build": "astro check && astro build",
     "preview": "astro preview",
-    "format": "prettier --write ."
-  },
-  "devDependencies": {
-    "@astrojs/preact": "^0.1.1",
-    "astro": "^1.0.0-beta.14"
+    "astro": "astro",
+    "check": "astro check",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "format": "biome format --write .",
+    "format:check": "biome check ."
   },
   "dependencies": {
-    "@astrojs/tailwind": "^0.2.0",
-    "@headlessui/react": "^1.5.0",
-    "@heroicons/react": "^1.0.6",
-    "preact": "^10.7.1",
-    "prettier": "^2.6.2",
-    "tailwind": "^4.0.0"
+    "@astrojs/rss": "^4.0.12",
+    "@tailwindcss/vite": "^4.1.11",
+    "astro": "^5.12.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@biomejs/biome": "^2.1.2",
+    "rehype-external-links": "^3.0.0",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3"
   }
 }
